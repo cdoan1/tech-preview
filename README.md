@@ -57,4 +57,10 @@ cat acmd-pull-secret.json
 ./mirror-image.py -p pull-secret.json -m registry.example.com:5000
 ```
 
-4. Apply the generated ICSP manifest, `oc apply -f 99-acm-images-icsp.yaml`.
+4. Apply the generated ICSP manifest.
+
+> WARNING: Applying the ImageContentSourcePolicy will update and reboot all the nodes in your cluster.
+
+```bash
+oc apply -f 99-acm-images-icsp.yaml
+```
