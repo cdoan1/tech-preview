@@ -1,0 +1,3 @@
+*.json
+!rc2-manifest.json
+99*.yaml

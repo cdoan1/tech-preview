@@ -1,0 +1,362 @@
+[
+  {
+    "image-key": "application_ui",
+    "image-name": "application-ui-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-5",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:5448ca3caff598e983a7a6909aec9fc74156825ab781f9748f26c52b16281216"
+  },
+  {
+    "image-key": "cert_manager_acmesolver",
+    "image-name": "acmesolver-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:0207def360df2f99fc39ccb7d7bcff98d44bcdc3289e62c2b267e0295e82efc4"
+  },
+  {
+    "image-key": "cert_manager_cainjector",
+    "image-name": "cainjector-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:7e577fe6458fa4c9bb5e7762f54afd6a13a7da5381312a9683fb15c8de64ca0d"
+  },
+  {
+    "image-key": "cert_manager_controller",
+    "image-name": "cert-manager-controller-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:746f0cd86828176f557d27d187f085a5b4b5dc4848e5fb9cc6002711d0b84505"
+  },
+  {
+    "image-key": "cert_manager_webhook",
+    "image-name": "cert-manager-webhook-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:5dd200e45d495598734c0cea1beb61e432dbe9a2368b94d801b9017fe90a365f"
+  },
+  {
+    "image-key": "cert_policy_controller",
+    "image-name": "cert-policy-controller-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-5",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:58109fddcb4d6e5e2cafa001000313699cd0ad011a02d95aa03d204664730e82"
+  },
+  {
+    "image-key": "cis_controller",
+    "image-name": "cis-controller-rhel7",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:f9bf426953321d50ef67964ea562ba46fba688fce9ed29ad24b676589f89f9cd"
+  },
+  {
+    "image-key": "cis_crawler",
+    "image-name": "cis-crawler-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-9",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:793d533d5e8a77f9c7e21732c8482eb5a91a83d9038fd517d5874bb6d7fe3323"
+  },
+  {
+    "image-key": "configmap_watcher",
+    "image-name": "configmap-watcher-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:15b4df15c25276775db30d126f6701a18fd48d8dab0083aa67353e68711b06a1"
+  },
+  {
+    "image-key": "console_api",
+    "image-name": "console-api-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-11",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:08d5449e4cb7d088bcf11c3d3ab473f35ec6d28d8d8b6da9fb99f3e066c710e6"
+  },
+  {
+    "image-key": "console_header",
+    "image-name": "console-header-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-7",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:e68b3a6da76a2659ebbc42fcb95ac529a99d8bc1569b4854076d0ed93c004631"
+  },
+  {
+    "image-key": "console_ui",
+    "image-name": "console-ui-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-7",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:0bf7b1bc93447dc711c7e31e04391c7e3f97604bde399e3f4faf9d72768c59e5"
+  },
+  {
+    "image-key": "coredns",
+    "image-name": "coredns-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-2",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:3b68bb501c494aead5e0d5a2f3702c313e8345357f187394802bafa4d69bbf22"
+  },
+  {
+    "image-key": "drishti_cis",
+    "image-name": "drishti-cis-rhel7",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-5",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:7ab248ce581a3152895a5482500f23ac0ef4f8c46188968a37f1e0505b807eba"
+  },
+  {
+    "image-key": "endpoint_component_operator",
+    "image-name": "endpoint-component-rhel8-operator",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-5",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:5edac8513f3d1a01fc9782a4f3a778c818e5d8d6b6e74eea5dce4d8d326ca1a9"
+  },
+  {
+    "image-key": "grc_ui",
+    "image-name": "grc-ui-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-5",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:dd0cc3f61d0818534df82e15cf0500b53014f6a01df6f8c3aa55ef9a6a304f21"
+  },
+  {
+    "image-key": "grc_ui_api",
+    "image-name": "grc-ui-api-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-11",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:de0ec02701464c5c9ec265f47d5e3827bd2ffea31799e97c98717b12ee05edb7"
+  },
+  {
+    "image-key": "iam_policy_controller",
+    "image-name": "iam-policy-controller-rhel7",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-5",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:0b7259ecbc55de70b30c754555d3a3e397ff159b79bb0441c4a049da383b9576"
+  },
+  {
+    "image-key": "img_minio",
+    "image-name": "img-minio-rhel7",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-4",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:35e7fa185d84f6ab948feb0482378952d905239bc67823fdda4852e4fc90ac46"
+  },
+  {
+    "image-key": "img_minio_mc",
+    "image-name": "img-minio-mc-rhel7",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:b4d4b15e46287b26f6ef3a648431fb4e1af818f1bbc442ba58bf44a3897b8a85"
+  },
+  {
+    "image-key": "kui_web_terminal",
+    "image-name": "kui-web-terminal-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-6",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:4beaabfa9254f0ee98a51c972df836fe7451f7d1864746718483904cf0d145a1"
+  },
+  {
+    "image-key": "management_ingress",
+    "image-name": "management-ingress-rhel7",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-4",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:1364243deb4430a795bfbaaf98a774fc687bb9f6338e9ede9f509243f65a8d2a"
+  },
+  {
+    "image-key": "mcm_compliance",
+    "image-name": "hcm-compliance-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:6f63d8f73e003b3d2665018ade9f417f44d62a90ef58fb9cbddea1e24305a8c2"
+  },
+  {
+    "image-key": "mcm_topology",
+    "image-name": "mcm-topology-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-7",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:0ecc946faf34e38b1359c4457d7c38893eecfca84523fb9288faf66d0a53f42f"
+  },
+  {
+    "image-key": "mcm_topology_api",
+    "image-name": "mcm-topology-api-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-7",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:5e647b972f30ad8f3c7c9ac29512b9ee3879c4d31ac55390e90c5adf484fdbb9"
+  },
+  {
+    "image-key": "multicloud_manager",
+    "image-name": "multicloud-manager-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-7",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:16d34e4f254260c3f7ce5c550eda9a87e9b520d01838a225862cd0302f717d4f"
+  },
+  {
+    "image-key": "multiclusterhub_operator",
+    "image-name": "multiclusterhub-rhel8-operator",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-18",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:5cdf507dfddbbc64fc34e3a0fcac0783e49bce77e9415fd70d58f44a6ae54e76"
+  },
+  {
+    "image-key": "multiclusterhub_repo",
+    "image-name": "multiclusterhub-repo-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-2",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:3d4c890f1ed2a4f36cbb70a330beee771d43d891ff2e6d51248906b19817e1a9"
+  },
+  {
+    "image-key": "multicluster_mongodb",
+    "image-name": "multicluster-mongodb-rhel7",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:5abd75cda7940a9224763611f11b69c6e174bc982131a468af038ed913b2815e"
+  },
+  {
+    "image-key": "multicluster_mongodb_init",
+    "image-name": "multicluster-mongodb-init-rhel7",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:d02bc3cfcd4a594f0086cf19200d251c35a1084534fedef3f5b1476b1bb466e8"
+  },
+  {
+    "image-key": "multicluster_operators_application",
+    "image-name": "multicluster-operators-application-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-2",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:860551ce4e127ef9c1b01565c9dcf65d917c5ede038fd3019d848f1e999a53a3"
+  },
+  {
+    "image-key": "multicluster_operators_channel",
+    "image-name": "multicluster-operators-channel-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-2",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:5b6a00f8646297d15af3a0b464180de0abf7ecee2e3c32bd300d541c47199c00"
+  },
+  {
+    "image-key": "multicluster_operators_deployable",
+    "image-name": "multicluster-operators-deployable-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-1",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:32f50b9a387929b3105a57766129e900a22b276452543329f1afb426482c9287"
+  },
+  {
+    "image-key": "multicluster_operators_placementrule",
+    "image-name": "multicluster-operators-placementrule-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-1",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:00ffdb7daa95da56e0f95888fdd2d196148b7ac49ecf188d1fe09fb028ddc9cf"
+  },
+  {
+    "image-key": "multicluster_operators_subscription",
+    "image-name": "multicluster-operators-subscription-rhel8-operator",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-4",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:ba9d016d706dc724ffa6cf1ae8cbaaedbf788f3ce2d2032bd69b9e2cb099b7d5"
+  },
+  {
+    "image-key": "multicluster_operators_subscription_release",
+    "image-name": "multicluster-operators-subscription-release-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-1",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:cf8acd2a78bbb4d49f831cd230f5a28c899d62f7a04781069ba0744ee0bed29f"
+  },
+  {
+    "image-key": "openshift_hive",
+    "image-name": "openshift-hive-rhel7-operator",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-4",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:6637d0e990c8224087ab89a9b7a5928a4ee210e341426c7452800626ae2305c8"
+  },
+  {
+    "image-key": "rcm_controller",
+    "image-name": "rcm-controller-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-7",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:d2b4c78f0298a8c1505b1d8f244e69b2adc33d662c5586ea07c65230464adce0"
+  },
+  {
+    "image-key": "redisgraph_tls",
+    "image-name": "redisgraph-tls-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:796dc3d0438f17f2b9673199b7ded2dba009bf780416216098c9362e769f6fce"
+  },
+  {
+    "image-key": "search_aggregator",
+    "image-name": "search-aggregator-rhel7",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:28c3fb47986408a168ee221d1fa3f0f3eca77e210c52ac68b7df7a6b5743e15e"
+  },
+  {
+    "image-key": "search_api",
+    "image-name": "search-api-rhel8",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-6",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:5580de0242ed8b946579c39f17e755516d1ac712f1dcb33ed9ae559c4ce45d17"
+  },
+  {
+    "image-key": "search_collector",
+    "image-name": "search-collector-rhel7",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-3",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:c56a5bf7d92c5d639c8aeae42f16ae47991603440e4805099748447c6f2ae5b4"
+  },
+  {
+    "image-key": "search_operator",
+    "image-name": "search-rhel8-operator",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-4",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:36ae694eb7594dd4f79a57aef2c2ebbda9aa9c276350bd0e2e82edd5024e8e61"
+  },
+  {
+    "image-key": "endpoint_operator",
+    "image-name": "endpoint-rhel8-operator",
+    "image-version": "v1.0.0",
+    "image-tag": "v1.0.0-38",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:f043b89c463e7c379053603fb5bd08c0613dabaca563a7a1d34eb6ed1fbb400b"
+  },
+  {
+    "image-key": "oauth_proxy",
+    "image-name": "ose-oauth-proxy",
+    "image-version": "v4.4.0",
+    "image-tag": "v4.4.0-202004261927",
+    "image-remote": "quay.io/acm-d",
+    "image-digest": "sha256:5fe478210770b21c1eb26c1570bcbda40bc5a79011580ff5ebd4c701a5b04eb2"
+  }
+]
